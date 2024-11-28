@@ -1,0 +1,7 @@
+
+@media(min-width:992px){
+  #carouselExampleCaptions .carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+}

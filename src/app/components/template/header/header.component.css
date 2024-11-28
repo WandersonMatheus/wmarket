@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-nav {
+  margin-top: 5px;
+}
+.nav-link:hover{
+  background-color: rgb(199, 199, 199);
+}
+@media(max-width:660px){
+  .search{
+    width: 360px;
+  }
+  .cart-button svg, .user-button svg{
+    width: 24px;
+    height: 24px;
+  }
+  .cart-button , .user-button {
+    margin-top: 6px;
+  }
+}
+@media (min-width: 992px) {
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+    position: absolute;
+  }
+}
+

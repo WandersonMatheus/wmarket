@@ -1,14 +1,19 @@
-<main>
-  <section>
-    <img/>
+<main class="container-fluid">
+  <section class="main-section container d-none d-md-flex">
+    <img src="/assets/images/main-illustration.svg" alt="">
   </section>
-  <section>
-    <img />
-    <h2></h2>
-    <button></button>
-    <div>
+  <section class="form-section container">
+    <img src="/assets/images/logo.svg" alt="logo da empresa" class="mb-4">
+    <h2 class="mb-5">{{title}}</h2>
+    <ng-content></ng-content>
+    <button class="btn buttons-login shadow-sm mb-3 mt-2" id="primary-btn-txt">{{primaryBtnTxt}}
+    </button>
+    <div class="divider">
+      <div></div>
       <span>OR</span>
+      <div></div>
     </div>
-    <button></button>
+    <button class="buttons-login shadow-sm mt-3" id="second-btn-txt">{{secondBtnTxt}}
+    </button>
   </section>
 </main>

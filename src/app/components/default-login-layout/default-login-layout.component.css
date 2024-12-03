@@ -1,0 +1,52 @@
+main{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section{
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+}
+.main-section{
+  flex-grow: 1;
+}
+.form-section{
+  flex-direction: column;
+  flex-grow: 0.3;
+  padding: 0 35px;
+}
+.buttons-login{
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px;
+  cursor: pointer;
+}
+#primary-btn-txt{
+  background-color: black;
+  color: white;
+}
+#second-btn-txt{
+  background-color: white;
+  color: black;
+}
+.divider{
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+}
+.divider div{
+  flex-grow: 0.3;
+  height: 1px;
+  background-color: black;
+}
